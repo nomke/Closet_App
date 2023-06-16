@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+　　
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="383dp">
+
+        <LinearLayout
+            android:id="@+id/photo_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ここに画像が動的に追加されます -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/T_shirt_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T-shirt-list" />
+
+
+
+    <Button
+        android:id="@+id/pants_button"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:text="pants-list" />
+
+    <Button
+        android:id="@+id/outer_button"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="outer-list" />
+
+    <Button
+        android:id="@+id/shoes_button"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="Shoes-list" />
+
+</LinearLayout>
